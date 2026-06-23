@@ -55,9 +55,16 @@ IDLE → START → ADDRESS → ACK → DATA → ACK → STOP → IDLE
 * Multiple Slave Support
 * Configurable Clock Frequency
 
+## Results
+
+- Successfully implemented FSM-based I2C Master Controller.
+- Verified START, Address Transmission, ACK Detection,
+  Data Transfer, and STOP conditions.
+- Simulated and verified using Xilinx Vivado 2018.2.
+
 ## Author
 
-Shanmuga Priya
+Jayavarshini 
 
 Electronics and Communication Engineering
 
